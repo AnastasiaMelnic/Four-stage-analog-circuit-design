@@ -1,0 +1,101 @@
+Circuit: * C:\Users\EMELNIAP8\AppData\Local\LTspice\CMRR.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+Gmin = 1.0412
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 1.0132
+vernier = 0.00390625
+vernier = 0.00195312
+Gmin = 1.00827
+vernier = 0.00260417
+vernier = 0.00130208
+Gmin = 1.00515
+vernier = 0.000651042
+vernier = 0.000868055
+vernier = 0.000434028
+Gmin = 1.00434
+vernier = 0.000578703
+vernier = 0.000434027
+Gmin = 1.00339
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:    d:u1:5      d:u1:8      d:u1:1      d:u1:2      d:u1:4
+Model:  u1:dlimn1   u1:dlimp1    u1:din     u1:dlimp2   u1:dlimn2
+Id:      3.72e-09    3.72e-09   -6.40e-13    4.34e-10    4.34e-10
+Vd:      3.72e-01    3.72e-01   -6.40e-07    3.72e-01    3.72e-01
+Req:     1.00e-08    1.00e-08    1.00e-06    3.33e-08    3.33e-08
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u1:7      d:u1:3      d:u1:6      d:u2:5      d:u2:8
+Model:  u1:dlim2    u1:dbias    u1:dbias    u2:dlimn1   u2:dlimp1
+Id:      2.97e-09    1.50e-06    1.50e-06    3.72e-09    3.72e-09
+Vd:      2.08e-01    4.99e+00    4.99e+00    3.72e-01    3.72e-01
+Req:     1.43e-08    2.00e-04    2.00e-04    1.00e-08    1.00e-08
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u2:1      d:u2:2      d:u2:4      d:u2:7      d:u2:3
+Model:   u2:din     u2:dlimp2   u2:dlimn2   u2:dlim2    u2:dbias
+Id:     -6.40e-13    4.34e-10    4.34e-10    2.97e-09    1.50e-06
+Vd:     -6.40e-07    3.72e-01    3.72e-01    2.08e-01    5.09e+00
+Req:     1.00e-06    3.33e-08    3.33e-08    1.43e-08    2.00e-04
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u2:6
+Model:  u2:dbias
+Id:      1.50e-06
+Vd:      5.09e+00
+Req:     2.00e-04
+CAP:     0.00e+00
+
+                        --- VDMOSFET Transistors ---
+Name:        m:u1:1      m:u1:2      m:u2:1      m:u2:2
+Model:        u1:ni       u1:pi       u2:ni       u2:pi
+Id:          1.04e-03   -1.04e-03    1.04e-03   -1.04e-03
+Vgs:         3.72e-01   -3.72e-01    3.72e-01   -3.72e-01
+Vds:         5.00e+00   -5.00e+00    5.10e+00   -4.90e+00
+Vth:         3.00e-01   -3.00e-01    3.00e-01   -3.00e-01
+Gm:          2.88e-02    2.88e-02    2.88e-02    2.88e-02
+Gds:         0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbody:       0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+
+
+Date: Sun Feb 25 19:13:37 2024
+Total elapsed time: 0.176 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 4808
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 32
+fillins = 29
+solver = Normal
+Avg thread counts: 1.6/0.0/8.0/1.5
+Matrix Compiler1:     150 opcodes
+Matrix Compiler2:     278 opcodes  0.6/[0.6]/0.7
+

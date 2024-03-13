@@ -1,0 +1,61 @@
+Circuit: * C:\Users\EMELNIAP8\AppData\Local\LTspice\Etaj4.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+N-Period=1
+Fourier components of V(out)
+DC component:0.101209
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	 1.000e+3	 1.924e-3	 1.000e+0	  -91.39°	    0.00°
+    2   	 2.000e+3	 6.744e-2	 3.506e+1	 -179.93°	  -88.55°
+    3   	 3.000e+3	 6.322e-4	 3.286e-1	  -93.18°	   -1.79°
+    4   	 4.000e+3	 1.356e-2	 7.046e+0	  179.69°	  271.08°
+    5   	 5.000e+3	 3.926e-4	 2.041e-1	  -95.24°	   -3.85°
+    6   	 6.000e+3	 5.755e-3	 2.992e+0	 -179.31°	  -87.93°
+    7   	 7.000e+3	 2.853e-4	 1.483e-1	  -93.98°	   -2.60°
+    8   	 8.000e+3	 3.295e-3	 1.713e+0	 -178.89°	  -87.50°
+    9   	 9.000e+3	 2.005e-4	 1.042e-1	  -94.93°	   -3.54°
+   10   	 1.000e+4	 2.016e-3	 1.048e+0	  178.45°	  269.84°
+Partial Harmonic Distortion: 3594.337434%
+Total Harmonic Distortion:   3596.379802%
+
+
+
+Date: Sun Feb 25 21:11:55 2024
+Total elapsed time: 0.369 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3296
+traniter = 2809
+tranpoints = 1323
+accept = 1227
+rejected = 96
+matrix size = 27
+fillins = 41
+solver = Normal
+Avg thread counts: 2.0/3.5/3.1/2.0
+Matrix Compiler1: 3.64 KB object code size  1.2/0.8/[0.5]
+Matrix Compiler2: 3.37 KB object code size  2.8/2.8/[0.9]
+

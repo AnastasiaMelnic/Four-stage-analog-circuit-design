@@ -1,0 +1,96 @@
+Circuit: * C:\Users\EMELNIAP8\AppData\Local\LTspice\Etaj2.asc
+
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 1.44852e-08
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.0416667
+vernier = 0.0208333
+Gmin = 1.39324e-08
+vernier = 0.0277778
+Gmin = 1.31135e-08
+vernier = 0.037037
+vernier = 0.0185185
+vernier = 0.0246913
+Gmin = 1.25701e-08
+vernier = 0.0329218
+Gmin = 1.16758e-08
+vernier = 0.0438957
+vernier = 0.0585276
+Gmin = 1.03184e-08
+vernier = 0.0780367
+vernier = 0.104049
+Gmin = 8.47901e-09
+vernier = 0.138732
+Gmin = 6.23579e-09
+vernier = 0.184976
+vernier = 0.246634
+Gmin = 3.74243e-09
+vernier = 0.328846
+vernier = 0.438461
+Gmin = 1.67868e-09
+vernier = 0.584614
+Gmin = 4.8845e-10
+vernier = 0.779486
+vernier = 1
+Gmin = 6.87469e-11
+Gmin = 7.38165e-12
+Gmin = 7.92598e-13
+Gmin = 0
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+N-Period=1
+Fourier components of V(out)
+DC component:-0.00484688
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	 1.000e+2	 2.998e+0	 1.000e+0	  -82.06°	    0.00°
+    2   	 2.000e+2	 1.007e-2	 3.358e-3	 -178.93°	  -96.87°
+    3   	 3.000e+2	 1.032e-2	 3.443e-3	 -176.81°	  -94.75°
+    4   	 4.000e+2	 1.103e-2	 3.678e-3	 -176.11°	  -94.05°
+    5   	 5.000e+2	 1.147e-2	 3.826e-3	 -170.20°	  -88.14°
+    6   	 6.000e+2	 1.171e-2	 3.907e-3	 -167.51°	  -85.45°
+    7   	 7.000e+2	 1.235e-2	 4.120e-3	 -161.81°	  -79.75°
+    8   	 8.000e+2	 1.203e-2	 4.013e-3	 -154.89°	  -72.83°
+    9   	 9.000e+2	 1.201e-2	 4.007e-3	 -150.98°	  -68.92°
+   10   	 1.000e+3	 1.203e-2	 4.011e-3	 -144.13°	  -62.07°
+Partial Harmonic Distortion: 1.147969%
+Total Harmonic Distortion:   1.800423%
+
+
+
+Date: Sun Feb 25 20:39:44 2024
+Total elapsed time: 0.472 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3577
+traniter = 2126
+tranpoints = 1064
+accept = 1059
+rejected = 5
+matrix size = 34
+fillins = 100
+solver = Normal
+Avg thread counts: 2.3/3.6/3.6/2.3
+Matrix Compiler1: 7.43 KB object code size  2.3/1.4/[0.8]
+Matrix Compiler2: 5.39 KB object code size  3.0/2.8/[1.0]
+
